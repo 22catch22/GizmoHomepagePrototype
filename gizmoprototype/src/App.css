@@ -1,0 +1,683 @@
+
+
+
+body{ height:7000px;
+width: 1700px;
+
+ display:block;
+font-family: "Cabin Sketch";
+background-image: url('../src/images/vector-background-template-with-colorful-gears.jpg')
+}
+#photocarousel{width:2500px;
+height:2000px;
+margin-top: -285px;
+margin-left: -500px;
+}
+
+@media screen and (max-width:620px){
+
+#gizmonav{width:100px;background-color: blue;}
+    #heroimage {
+           width:200px;
+           height:200px;
+        }
+#CarouselContainer{width:100%;}
+}
+
+ #CarouselContainer{
+    height:550px;
+    width:auto;
+ font-size: larger;
+ 
+ display: block;
+margin-left: 100px;
+background-image:
+
+        radial-gradient(var(--radius),
+            transparent 98%,
+            rgb(37, 31, 31)),
+        linear-gradient(white 0 0);
+    background-repeat:
+        round,
+        no-repeat;
+    background-position:
+        calc(var(--radius) * -1.5) calc(var(--radius) * -1.5),
+        50%;
+    background-size:
+        calc(var(--radius) * 3) calc(var(--radius) * 3),
+        calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+} 
+#photobox{width:1000px;}
+#image1 ,#image2, #image3{
+    height:400px;
+
+    box-shadow: 10px 10px rgb(15, 15, 15);
+     width: 80%
+}
+#geardivider{height:60px;
+width:60px;
+
+}
+ #gearbox{width:100%;
+
+margin-top: 50px;
+}
+.react-card-front{ 
+    position: relative;
+height:300px;
+width:300px;
+}
+.react-card-back{ 
+
+height:300px;
+width:300px;
+    ;}
+#factbox{height:200px;
+margin-top: -130px;
+background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 10px 10px grey;
+}
+.dropdown{padding:50px;}
+#gearsbox1{
+ 
+
+width:500px;
+height:100%;
+}
+
+#donatecontainer{
+height:300px;
+align-items: center;    
+text-align: center;
+display: block;
+margin-top: 170px;
+
+}
+
+#inspirequotes{
+    height: 100px;
+    width:900px;
+    position:absolute;
+  color: #000000;
+  margin-top:30px;
+ top: 0%;
+    margin-left: 565px;
+    font-size: 20px;
+ text-align: center;
+}
+
+#aboutus{padding-top: 20px;}
+#activitybox{height:600px;
+display:grid;
+position: relative;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+margin-top: 140px;
+ 
+}
+
+
+#activitycard svg{width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
+
+#activitycard1, #activitycard2, #activitycard3, #activitycard4, #activitycard5, #activitycard6, #activitycard7,
+#activitycard8,#activitycard9
+
+
+{position: relative;
+    width: 300px;
+    height: 200px;
+background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+
+    background-color: #f2f2f2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.activitycard{background-size: 290px; 
+background-repeat:no-repeat;
+}
+
+#activitycard1{background-image: url('../src/images/woodworking.jpg');
+   
+}
+
+#activitycard2 {background-image: url('../src/images/sewingmachine1.jpg');
+
+
+}
+#activitycard3{background-image:url('../src/images/laserwork.jpg')
+}
+#activitycard4{
+    background-image: url('../src/images/potterywork.jpg')
+}
+#activitycard5{background-image: url('../src/images/robotwork.jpg');}
+#activitycard6{background-image: url('../src/images/jewelrywork.jpg');}
+#activitycard7 {
+    background-image: url('../src/images/electronicswork.jpg');
+}
+#activitycard8{background-image: url('../src/images/3dprintwork.jpg');}
+.activitycard:hover{transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);}
+ #activity1 {
+     height: 300px;
+     width: 300px;
+     padding: 50px;
+     transition: ease-in;
+ }
+#activity1:hover{border: black solid 4px;}
+
+#activitycardback{
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ 
+#activitycard #activitycardback{transform: rotateX(0deg);}
+#title{width:100%;
+    text-align: center;
+}
+#activitycard {
+    position: relative;
+    border: solid black;
+
+    width: 500px;
+    height: 300px;
+background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+ 
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     
+}
+
+ #card__content{color: #f2f2f200;}
+ #card__content :hover{color: white;}
+.card:hover .card__content {
+    transform: rotateX(0deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card:hover svg {
+    scale: 0;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.card:hover .card__content {
+    transform: rotateX(0deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card:hover svg {
+    scale: 0;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+#gizmologo{margin-right: -400px;
+height:50px}
+
+#gizmologo2{height:200px;
+    position: absolute;
+    width:700px;
+    margin-top: 70px;
+    margin-left: -790px;
+}
+#gizmologo3{
+    height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: -330px;
+}
+
+#donatebox{ 
+position: relative;
+margin-top: 100px;
+height: 800px;
+display: block;
+}
+
+#donatepic{align-self: center;height:600px; width:600px;
+    margin-left:350px
+}
+#dropdownbasic{background-color: rgba(240, 248, 255, 0);
+font-family: "Cabin Sketch";
+font-size: 30px;
+border-color: rgba(240, 248, 255, 0);
+color: black;
+}
+#contacthead{
+ height:200px;
+ width:100%;
+ position: absolute;   
+ margin-top: 100px;
+ text-align: center;
+}
+#contactform{
+    height: 600px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 600px;
+    margin-left: 600px;
+}
+#CarouselContainer:after{
+content: '';
+position:absolute;
+top:0;
+left:0;
+width: 100%;
+height:100%;
+background: linear-gradient(to right rgb(231, 58, 58), rgba(3, 3, 3, 0));
+}
+
+#imgbox1{
+width: 440px;
+height: 150px;
+position: relative;
+margin-top: 100px;
+padding-right: 50px;
+ 
+display: inline-block;
+ 
+}
+
+#gears{height:900px;}
+#gizmoimage1{height:220px;
+    width:220px;
+position: absolute;
+margin-top: -440px;
+margin-left: 200px;
+border-radius:90px
+}
+#gizmoimage2 {
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    margin-top: -730px;
+    margin-left: 500px;
+    border-radius: 90px
+}
+#gizmoimage3 {
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 875px;
+    border-radius: 90px
+}
+#headerbox{position:relative;
+height:200px; padding:50px;
+text-align: center;
+margin-top: 400px;
+}
+#imglabel1{height: fit-content;
+    width: 220px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 200px;
+   
+    background-color: rgba(250, 235, 215, 0.601);
+color:rgb(0, 0, 0);
+}
+#gizmoimage1:hover{filter:blur(2px);}
+#gizmoimage2:hover {
+    filter: blur(2px);
+}
+#gizmoimage3:hover {
+    filter: blur(2px);
+}
+#imglabel2 {
+    height: fit-content;
+    width: 220px;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 500px;
+
+    background-color: rgba(250, 235, 215, 0.601);
+    color: rgb(0, 0, 0);
+}
+#imglabel3 {
+    height: fit-content;
+    width: 220px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 870px;
+
+    background-color: rgba(250, 235, 215, 0.601);
+    color: rgb(0, 0, 0);
+}
+.cabin-sketch-regular {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabin-sketch-bold {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#linkbox{display:inline-flex;
+    height: fit-content;
+    align-items: center;
+width:1000px;}
+#headline{position: absolute;
+color: rgb(0, 0, 0);
+font-size: 60px;}
+#gizmopic3{
+    width:150%;
+    height:150%;
+    margin-top: 0px;
+}
+#footercontainer{display: flex;
+margin-top: 50px;
+padding: 10px;}
+#hours{height:fit-content;
+    width:fit-content;
+    margin-left: 80px;
+}
+#box1img{height:100px; width:100px;padding: 7px;
+
+position:relative}
+#logobox{width:100%;
+height:800px;
+display: block;
+position:relative;
+text-align: center;
+
+color: black;
+}
+#tagline{font-size:20px;}
+#pagecontainer{
+   
+height: 5650px;
+width:2000px;
+ top: 200px;
+ margin-top:20px;
+ background-color: #f2f2f2ec;
+position: absolute;
+margin-left: 350px;
+border: black solid 3px;
+ 
+align-items: center;
+display:block;
+}
+.nav-link{padding: 30px;}
+#textbox{background-image: linear-gradient(rgba(0, 0, 0, 0.096), black);
+width:1400px;
+position: absolute;
+height:200px;
+margin-left: -195px;
+margin-bottom: -20px;
+
+}
+ 
+#gizmonav{  
+   background-size: cover;
+
+   background-repeat: no-repeat;
+   display: flex;
+position: absolute;
+top:0;
+margin-left: -190px;
+background-color: rgba(249, 248, 247, 0.919);
+    align-items: center;
+    box-shadow: 10px 10px grey;
+     
+width:2308px;
+height:fit-content;
+}
+#navbartitle{color:rgb(0, 0, 0);
+font-size: 60px;
+}
+#gearandlogo{margin-left: -275px;
+margin-bottom:-90px;
+height:100px;
+width:100px;
+}
+#gearandlogo2{ 
+ display: inline-flex;
+    width: 1000px;
+margin-top: -45px;
+
+text-align: center;
+}
+ #formbutton{background-color: chocolate}
+#newslettercontainer{
+height:300px;
+width:100%;
+position: absolute;
+text-align: center;
+font-size: larger;
+}
+#signupbutton{background-color: chocolate;
+margin-top: 25px;
+}
+#navcontainer{
+margin-left: 190px;
+
+}
+#collegepicbox{width: 1000px;
+align-content: center;
+}
+
+
+
+#heroimage{width:2110px;
+height: 900px;
+margin-left: -375px;
+
+    align-items: center;
+    box-shadow: 10px 10px rgb(15, 15, 15);
+}
+
+
+#collegepic{height:500px;
+width:800px;
+margin-left: 250px;
+}
+#video{height:500px; width:500px;}
+#containerbox{height: 2000px;
+width: 2000px;;
+}
+#factbox{text-align: center;
+padding: 10px;--radius: 8px;
+position: relative;
+margin-top: 100px;
+font-size:xx-large;
+}
+#factcard2{width:100%;
+    height:100%
+}
+footer {background-color: rgba(255, 255, 255, 0.932);  height:600px; display:flex; 
+    position: relative;
+ align-items: start;
+ display:inline-block;
+ width:2000px;
+ padding-right:300px;
+margin-left: -500px;
+margin-top: 500px;
+height:fit-content;
+}
+#directions{width:100px;
+height:fit-content;
+}
+#spinninggear{height:85px;
+width:85px;
+position:absolute;
+margin-top:-203px;
+margin-left:-17px;
+animation: rotate;
+animation-duration: 2s;
+
+}
+#storybox{
+
+ font-size: larger;   
+ line-height: 2;
+}
+#carouselbutton{background-color: cornsilk;}
+#spinninggear2 {
+    height: 347px;
+    width: 347px;
+    position: absolute;
+    margin-top: -64px;
+    margin-left: -273px;
+    animation: rotate;
+    animation-duration: 2s;
+}
+
+#title{position: flex;
+justify-content: center;
+align-items: center;
+}
+
+@keyframes rotate
+{
+0%{transform:rotate(0deg)}
+
+100%{transform:rotate(360deg)}
+
+}
+
+#welcome{
+position:absolute;
+height: fit-content;
+margin-left: -290px;
+margin-top: 160px;
+color: #f2f2f2;
+display:inline-block;
+width:500px;
+ 
+font-size: 40px;
+}
+.homepagebutton{background-color: rgba(210, 105, 30, 0.576);
+margin-top: 25px;
+ border-radius: 0%;
+    align-items: center;
+    color: white;
+    box-shadow: 10px 10px 5px rgba(33, 33, 33, 0.898);
+}
+#subtitle{font-size:20px}
+#pagecontainer2 {
+
+    height: 2000px;
+    width: 2000px;
+  
+    background-color: rgba(250, 235, 215, 0.56);
+    position: absolute;
+    top: 5;
+    margin-left: 200px;
+    border-radius: 90px;
+    display: block;
+}
+
+#pagecontainer3 {
+
+    height: 2000px;
+    width: 2000px;
+
+    background-color: rgba(250, 235, 215, 0.56);
+    position: absolute;
+    top: 5;
+    margin-left: 200px;
+    border-radius: 90px;
+    display: block;
+}
+ #gearbox1{width:100%;
+    height:fit-content;
+align-self: center;
+margin-left: 480px;
+ 
+}
+#eventbox{
+height:1000px;
+width:1000px;
+margin-top: 200px;
+background-color:aqua;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto auto auto;
+}
+#event{padding: 40px; 
+
+}
+#subtitle{text-align: center;
+font-size: larger;
+}
+#titlebox{
+position: relative;
+width: 100%;
+align-items: center;
+height:fit-content;
+
+}
+#tagline{position:absolute;
+margin-top: 200px;
+margin-left: 210px;
+}
